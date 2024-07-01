@@ -162,10 +162,10 @@ class Chatbot:
 
 
 if __name__ == "__main__":
-    chatbot = Chatbot('C:/Users/oleka/OneDrive/Desktop/iris/data/training/chatbot_model.h5',
-                      'C:/Users/oleka/OneDrive/Desktop/iris/data/dataset/inputs.json',
-                      'C:/Users/oleka/OneDrive/Desktop/iris/data/training/words.pkl',
-                      'C:/Users/oleka/OneDrive/Desktop/iris/data/training/classes.pkl')
+    chatbot = Chatbot('../data/training/chatbot_model.h5',
+                      '../data/dataset/inputs.json',
+                      '../data/training/words.pkl',
+                      '../data/training/classes.pkl')
     start = True
 
     while start:
